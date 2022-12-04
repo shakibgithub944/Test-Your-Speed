@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Monster Blog</title>
+</head>
+
+<body>
+    <div class="blog-text" style="padding:20px ;">
+        <div class="question">
+            <h2>Q1.Difference between local storage and session storage ?</h2>
+            <P> <strong>Ans:</strong> SessionStorage is similar to localStorage ; the difference is that while data in
+                localStorage doesn't
+                expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a
+                particular tab in the browser, a unique page session gets created and assigned to that particular tab.
+            </P>
+        </div>
+        <div class="question">
+            <h2>Q2.Difference between global scope and block scope ?</h2>
+            <P> <strong>Ans:</strong> The variables defined outside of any function or curly brackets are known as
+                global variables and have
+                global scope. Global scope means that the variables can be accessed from any part of that program, any
+                function or conditional state can access that variable.Block scope is also a sub-type of local scope.
+                The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these
+                curly brackets can be of loops, or conditional statements, or something else. You are only allowed to
+                refer to these variables from within the curly brackets {}.</P>
+        </div>
+        <div class="question">
+            <h2>Q3.How will work javascript event loop?</h2>
+            <P> <strong>Ans:</strong> The Event Loop has one simple job — to monitor the Call Stack and the Callback
+                Queue. If the Call Stack
+                is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack,
+                which effectively runs it. Such an iteration is called a tick in the Event Loop.</P>
+        </div>
+        <div class="question">
+            <h2>Q4.How many ways we will get 'undefined' in javascript?</h2>
+            <P> <strong>Ans:</strong> undefined is a property of the global object. That is, it is a variable in global
+                scope. The initial
+                value of undefined is the primitive value undefined.
+                In all non-legacy browsers, undefined is a non-configurable, non-writable property. (Even when this is
+                not the case, avoid overriding it.)
+                A variable that has not been assigned a value is of type undefined. A method or statement also returns
+                undefined if the variable that is being evaluated does not have an assigned value. A function returns
+                undefined if a value was not returned.
+            </P>
+        </div>
+    </div>
+</body>
+
+</html>
